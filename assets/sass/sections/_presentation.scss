@@ -4,7 +4,7 @@
 }
 .title__principal--1{
     font-weight: 800;
-    color: #5F6F65;
+    color: $color1;
 }
 .title__principal--2{
     color: black;
@@ -16,13 +16,13 @@
 }
 .button_presentation{
     width: 13vw;
-    background-color: #808D7C;
+    background-color: $color3;
     font-size: 1.2vw; 
-    border-color: #808D7C; 
+    border-color: $color3; 
 }
 .button_presentation:hover{
-    background-color: #5F6F65;
-    border-color: #5F6F65;
+    background-color: $color1;
+    border-color: $color1;
 }
 
 @media (max-width: 770px){
