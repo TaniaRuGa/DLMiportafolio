@@ -1,1 +1,14 @@
 @import "../../node_modules/bootstrap/dist/css/bootstrap.css"; /*bootstrap*/ 
+@import "sections/form"; /*sections form*/ 
+@import "sections/navigation"; /*sections navigation*/ 
+@import "sections/presentation"; /*sections presentation*/ 
+@import "sections/projects"; /*sections projects*/ 
+@import "sections/skills"; /*sections skills*/ 
+
+body{
+    background-color: #C9DABF;
+    font-family: "Lato", sans-serif;
+}
+.titles_sections{
+    color: #5F6F65;
+}
