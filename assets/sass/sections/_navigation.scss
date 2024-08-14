@@ -1,5 +1,9 @@
-.peter_parker{}
+.peter_parker{
+    width: 12vw;
+}
 
 @media (max-width: 770px){
-    .peter_parker{}
+    .peter_parker{
+        width: 30vw;
+    }
 }
