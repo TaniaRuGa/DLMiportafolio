@@ -8,6 +8,41 @@ body {
   color: #5F6F65;
 }
 
+@media (max-width: 770px) {
+  .crate {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+  .crate_1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25vw;
+  }
+  .crate_2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .img_1 {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 3vw;
+    margin-left: 4vw;
+  }
+  .img_1_1 {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 3vw;
+    margin-left: 4vw;
+  }
+  .peter_parker {
+    width: 30vw;
+  }
+  .button_presentation {
+    width: 100%;
+    font-size: 14pt;
+  }
+}
 /*bootstrap*/
 .link {
   text-decoration: none;
@@ -81,16 +116,20 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: start;
+  margin: 0 auto;
 }
 
 .crate_1 {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .crate_2 {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .crate_intern {
