@@ -1,16 +1,59 @@
 /*section flexbox*/
-.crate{}
-.crate_1{}
-.crate_2{}
-.crate_intern{}
-.img_1{}
-.img_1_1{}
-.title_icons_s{}
+.crate{
+    display: flex;
+    flex-direction: row; 
+    justify-content: start;
+}
+.crate_1{
+    display: flex;
+    flex-direction: row;
+}
+.crate_2{
+    display: flex;
+    flex-direction: row;
+}
+.crate_intern{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.img_1{
+    width: 50px;
+    height: 50px;
+    margin-left: 4.2vw;
+}
+.img_1_1{
+    width: 50px;
+    height: 50px;
+}
+.title_icons_s{
+    font-weight: 500;
+}
 
 @media (max-width: 770px){
-    .crate{}
-    .crate_1{}
-    .crate_2{}
-    .img_1{}
-    .img_1_1{}
+    .crate{
+        display: flex;
+        flex-direction: row; 
+        justify-content: start; 
+    }
+    .crate_1{
+        display: flex;
+        flex-direction: column;
+        margin-right: 25vw;   
+    }
+    .crate_2{
+        display: flex;
+        flex-direction: column; 
+    }
+    .img_1{
+        width: 50px;
+        height: 50px;
+        margin-bottom: 3vw;    
+    }
+    .img_1_1{
+        width: 50px;
+        height: 50px;
+        margin-bottom: 3vw; 
+        margin-left: 4vw; 
+    }
 }
