@@ -12,29 +12,3 @@ body{
 .titles_sections{
     color:  #5F6F65;
 }
-@media (max-width: 768px){
-    .crate{
-        display: flex;
-        flex-direction: row; 
-        align-items: center;
-    }
-    .img_1{
-        width: 20px;
-        height: 20px;
-        margin-bottom: 3vw;
-        margin-left: 4vw;    
-    }
-    .img_1_1{
-        width: 20px;
-        height: 20px;
-        margin-bottom: 3vw; 
-        margin-left: 4vw; 
-    }
-    .peter_parker{
-        width: 30vw;
-    }
-    .button_presentation{
-        width: 100%;
-        font-size: 14pt;
-    }
-}
