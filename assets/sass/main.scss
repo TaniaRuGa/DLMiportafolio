@@ -16,11 +16,12 @@ body{
     .crate{
         display: flex;
         flex-direction: row; 
-        justify-content: start; 
+        align-items: center;
     }
     .crate_1{
         display: flex;
-        margin-right: 25vw;   
+        flex-direction: row; 
+        align-items: center;   
     }
     .crate_2{
         display: flex;
